@@ -3,9 +3,6 @@
 // (Thunk akan dipelajari pada pembahasan selanjutnya)
 import { configureStore } from "@reduxjs/toolkit";
 
-// import seluruh reducer yang akan kita gunakan di sini
-// import { initialValue, rootReducer } from "../reducers/rootReducer";
-
 // import slice yang baru saja dibuat
 import counterSlice from "../features/counter/sliceCounter.js";
 
