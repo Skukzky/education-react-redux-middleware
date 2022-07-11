@@ -36,7 +36,7 @@ export const userAsync = createAsyncThunk(
 
     // Dalam kasus ini kita mengembalikan si ... response.data.data
     // (ingat Response schema axios, response data axios ada di response.data
-    //   dan data dari reqres.in ada di object data, sehingga jadinya response.data.data
+    // dan data dari reqres.in ada di object data, sehingga jadinya response.data.data
     return response.data.data;
   }
 );
